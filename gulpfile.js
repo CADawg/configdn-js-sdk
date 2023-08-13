@@ -11,12 +11,12 @@ function updateVersion(dst, file) {
   const VERSION = JSON.parse(fs.readFileSync("./package.json")).version;
 
   return gulp.src(dst + "/" + file)
-    .pipe(replace("CONFIGCAT_SDK_VERSION", VERSION))
+    .pipe(replace("CONFIGDN_SDK_VERSION", VERSION))
     .pipe(gulp.dest(dst));
 }
 
 function updateVersion_dist() {
-  return updateVersion(OUT_DIST, "configcat.js");
+  return updateVersion(OUT_DIST, "configdn.js");
 }
 
 function updateVersion_esm() {

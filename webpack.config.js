@@ -5,8 +5,8 @@ module.exports = {
     "./src/index.ts"
   ],
   output: {
-    filename: "configcat.js",
-    library: "configcat"
+    filename: "configdn.js",
+    library: "configdn"
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.

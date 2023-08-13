@@ -4,7 +4,8 @@
     "sourceMap": false,
     "declaration": true,
     "declarationMap": true,
-    "declarationDir": "./lib"
+    "declarationDir": "./lib",
+    "resolveJsonModule": true,
   },
   "include": [
     "src/**/*.ts",

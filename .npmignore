@@ -2,9 +2,6 @@
 .vscode/
 node_modules/
 src/
-samples/
-tests/
-coverage/
 gulpfile.js
 package-lock.json
 tsconfig*.json
@@ -12,14 +9,6 @@ tsconfig*.json
 .idea/
 .nyc_output/
 *.log
-media/
-test/
-DEPENDENCIES.md
-DEPLOY.md
-karma.conf.js
 webpack.config*.js
-deploy.sh
-update-samples.sh
 .github/
 gulpfile.js
-karma-*.conf.js

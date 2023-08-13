@@ -1,1 +1,1 @@
-export default "CONFIGCAT_SDK_VERSION";
+export default "CONFIGDN_SDK_VERSION";

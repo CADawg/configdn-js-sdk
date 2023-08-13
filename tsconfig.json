@@ -4,6 +4,7 @@
     "strict": true,
     "target": "ESNext",
     "importHelpers": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
   }
 }
